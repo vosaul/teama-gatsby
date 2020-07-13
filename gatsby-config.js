@@ -1,8 +1,31 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Teama`,
+    subtitle: `VISUAL EFFECTS STUDIO`,
+    description: `TEAMA is independent visual effects studio founded in 2020. Our artists have a huge experience working in hundreds of
+        music videos, commercials and films in best VFX companies in Ukraine`,
+    author: `@vosaul`,
+    social: 
+      [{ 
+        link: "https://www.youtube.com/channel/UC3CDh3xGYOGA7CdVYXFO_Ew",
+        icon: "ion-social-youtube ", 
+        title: "youtube "
+      },
+      {
+        link: "https://www.facebook.com/Teamapro-106009800973549/",
+        icon: "ion-social-facebook",
+        title: "facebook"
+      },
+      {
+        link: "https://www.instagram.com/teama.pro/",
+        icon: "ion-social-instagram",
+        title: "instagram"
+      },
+      {
+        link: "https://www.linkedin.com/company/teama-pro/",
+        icon: "ion-social-linkedin",
+        title: "linkedin"
+    }]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +47,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
