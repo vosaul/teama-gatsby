@@ -11,35 +11,14 @@ import PropTypes from "prop-types"
 
 import Navbar from "./navbar"
 import Services from "./services"
+import Works from "./works"
 import { useSiteMetadata } from "./use_static_query"
 import "./layout.css"
 
-
 const Layout = ({ children }) => {
-  /* const {data} = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-          subtitle
-          description
-          author
-          social {
-            title
-            link
-            icon
-          }
-          services {
-            icon
-            info
-          }
-        }
-      }
-    }
-  `) */
-const { social } = useSiteMetadata()
-const { suka } = useSiteMetadata()
-console.log(suka)
+  const { social } = useSiteMetadata()
+  const { services } = useSiteMetadata()
+  const { works } = useSiteMetadata()
   return (
     <div
       style={{
@@ -49,8 +28,9 @@ console.log(suka)
       }}
     >
       <Navbar siteSocial={social} />
-      <Services ourServices={suka} />
-      
+      <Services ourServices={services} />
+      <Works works={works} />
+
       <div>
         <main>{children}</main>
         <footer>

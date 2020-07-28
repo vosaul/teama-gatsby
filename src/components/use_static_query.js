@@ -10,13 +10,20 @@ export const useSiteMetadata = () => {
             subtitle
             author
             description
-            suka {
+            services {
               image
               info
             }
             social {
               link
               title
+            }
+            works {
+              title
+              image
+              img_m
+              img_s
+              w_link
             }
           }
         }
