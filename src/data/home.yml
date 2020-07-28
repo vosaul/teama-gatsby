@@ -1,5 +1,5 @@
-title: our services
-services:
+title: our ourServices
+ourServices:
   - icon: /assets/Ionicons/film.svg
     info: TEAMA is an independent visual effects studio founded in 2020. Our artists
       have a huge experience working in hundreds of music videos, commercials,
@@ -9,7 +9,7 @@ services:
       at every stage of its implementation - from tests and concepts to the
       final delivery.
   - icon: /assets/Ionicons/videocam.svg
-    info: We provide such services as compositing, clean up, beauty retouch, matte
+    info: We provide such ourServices as compositing, clean up, beauty retouch, matte
       painting, editing 360 videos, color grading, 3d  modeling, simulation, and
       animation, etc.
   - icon: /assets/Ionicons/rocket.svg
