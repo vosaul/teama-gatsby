@@ -7,15 +7,16 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+//import { useStaticQuery, graphql } from "gatsby"
 
 import Navbar from "./navbar"
 import Services from "./services"
+import { useSiteMetadata } from "./use_static_query"
 import "./layout.css"
 
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
+  /* const {data} = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
@@ -35,8 +36,10 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
-
+  `) */
+const { social } = useSiteMetadata()
+const { suka } = useSiteMetadata()
+console.log(suka)
   return (
     <div
       style={{
@@ -45,8 +48,9 @@ const Layout = ({ children }) => {
         padding: `0 1.0875rem 1.45rem`,
       }}
     >
-      <Navbar siteSocial={data.site.siteMetadata.social} />
-      <Services ourServices={data.siteMetadata.services} />
+      <Navbar siteSocial={social} />
+      <Services ourServices={suka} />
+      
       <div>
         <main>{children}</main>
         <footer>
