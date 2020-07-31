@@ -1,7 +1,7 @@
 ---
 title: Oleksandr Romashkin
-slug : "/team/"
-image: "/assets/images/oleksandr-500.jpg"
+slug : Oleksandr
+image: "/images/oleksandr-500.jpg"
 ---
 
 #### About Me

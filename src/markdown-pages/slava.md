@@ -1,7 +1,7 @@
 ---
-slug: /team/
+slug: Slava
 title: Slava Bunich
-image: "/assets/images/slava-500.jpg"
+image: "/images/slava-500.jpg"
 ---
 
 #### About Me

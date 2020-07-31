@@ -1,4 +1,4 @@
-/* import React from "react"
+import React from "react"
 import { graphql } from "gatsby"
 
 export default function Template({
@@ -10,6 +10,9 @@ export default function Template({
     <div className="blog-post-container">
       <div className="blog-post">
         <h1>{frontmatter.title}</h1>
+        <img
+          src={frontmatter.image} alt="{frontmatter.title}
+        "/>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -20,15 +23,14 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query($slug: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        slug
-        title
-      }
-    }
-  }
-`
- */
+         query($slug: String!) {
+           markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+             html
+             frontmatter {
+               image
+               slug
+               title
+             }
+           }
+         }
+       `

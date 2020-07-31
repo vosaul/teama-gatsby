@@ -1,7 +1,7 @@
 ---
-slug: /team/
+slug: Roman
 title: Roman Sauliak
-image: "/assets/images/roman-500.jpg"
+image: "/images/roman-500.jpg"
 ---
 
 #### About Me
@@ -16,5 +16,5 @@ I constantly learn something new and try to bring something special to everythin
 In my free time, I ride on boards, shoot and edit extreme videos and make vlogs for YouTube channel.
 
 You can see some of the projects I've been involved in here:
-[![imbd](/assets/images/imbd.svg)](https://www.imdb.com/name/nm8615227)
+[![imbd](/images/imbd.svg)](https://www.imdb.com/name/nm8615227)
 

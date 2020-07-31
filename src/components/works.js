@@ -28,8 +28,6 @@ const Works = (props) => {
             title={work.title}
             w_link={work.w_link} />)
   })
-  const a=props.ourServices
-  console.log(a)
   return (
   <section className="works" id="video360">
             <h2>our works</h2>

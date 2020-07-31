@@ -13,8 +13,6 @@ const Services = props => {
   const servList = Serv.map((serv, i) => {
     return <ServiceItem key={i} icon={serv.image} info={serv.info} />
   })
-  const a = props.ourServices
-  console.log(a)
   return <div>{servList}</div>
 }
 export default Services

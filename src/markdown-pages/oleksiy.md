@@ -1,7 +1,7 @@
 ---
-slug: /team/
+slug: Oleksiy
 title: Oleksiy Sauliak
-image: "/assets/images/oleksa-500.jpg"
+image: "/images/oleksa-500.jpg"
 ---
 
 #### About Me
@@ -16,4 +16,4 @@ I'm more of a technical expert who will always find a solution to a particular p
 VR, AR, AI, compositing, beauty work, camera mapping, camera tracking and clean-up.
 
 You can see some of the projects I've been involved in here:
-[![imbd](/assets/images/imbd.svg)](https://www.imdb.com/name/nm9551216/?ref_=nv_sr_srsg_1)
+[![imbd](/images/imbd.svg)](https://www.imdb.com/name/nm9551216/?ref_=nv_sr_srsg_1)

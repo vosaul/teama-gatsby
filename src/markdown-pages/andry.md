@@ -1,7 +1,7 @@
 ---
 title: Andrii Dzihovskyi
-image: /assets/images/andry-500.jpg
-slug: "/team/"
+image: /images/andry-500.jpg
+slug: Andrii
 ---
 
 #### About Me
