@@ -12,6 +12,7 @@ import PropTypes from "prop-types"
 import Navbar from "./navbar"
 import Services from "./services"
 import Works from "./works"
+import Teama from "./team"
 import { useSiteMetadata } from "./use_static_query"
 import "./layout.css"
 
@@ -27,9 +28,12 @@ const Layout = ({ children }) => {
         padding: `0 1.0875rem 1.45rem`,
       }}
     >
+      <h1>TEAMA</h1>
+      <p>VISUAL EFFECTS STUDIO</p>
       <Navbar siteSocial={social} />
       <Services ourServices={services} />
       <Works works={works} />
+      <Teama />
 
       <div>
         <main>{children}</main>

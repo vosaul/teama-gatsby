@@ -3,9 +3,15 @@ import React from "react"
 const WorkItem = props => {
   return (
     <div className="video_item container">
-      <h3>{props.title}</h3>
+      <h3>
+        {props.title}
+      </h3>
       <a className="video360" href={props.w_link}>
-              <img srcset={props.image} alt="work" />
+          <picture>
+              <img srcSet={props.image} alt="work" />
+              <source srcSet={props.im_s} media="(max-width: 600px)" />
+              <source srcSet={props.img_m} media="(max-width: 800px) and (max-width: 800px)"/>
+        </picture>
       </a>
     </div>
   )
@@ -25,7 +31,7 @@ const Works = (props) => {
   const a=props.ourServices
   console.log(a)
   return (
-  <section class="works" id="video360">
+  <section className="works" id="video360">
             <h2>our works</h2>
             {wList}
           </section>)
