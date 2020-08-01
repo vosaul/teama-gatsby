@@ -1,15 +1,14 @@
-const React = require("react")
-//const ReactMarkdown = require("react-markdown")
-//const input = require("./_team/roman.md")
+import React from "react"
+import Member from "./member"
+const Team = ({
+  data: {
+    allMarkdownRemark: { edges },
+  },
+}) => {
+  const Posts = edges
+    .map(edge => <Member key={edge.node.id} post={edge.node} />)
 
-const content = "<ReactMarkdown source={input} />"
-const Teama = () => {
-  return (
-    <section>
-      <h2>our team</h2>
-      <p>{content}</p>
-    </section>
-  ) 
+  return <div>{Posts}</div>
 }
 
-export default Teama
+export default Team

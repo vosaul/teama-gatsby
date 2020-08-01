@@ -8,14 +8,20 @@
 import React from "react"
 import PropTypes from "prop-types"
 //import { useStaticQuery, graphql } from "gatsby"
-
+// import { graphql } from "gatsby"
 import Navbar from "./navbar"
 import Services from "./services"
 import Works from "./works"
-import Teama from "./team"
+//import Team from "./team"
 import { useSiteMetadata } from "./use_static_query"
 import "./layout.css"
-
+/* const data = {
+  frontmatter: {
+    title: "Roman",
+    slug: "/roman/",
+    image: "#",
+  }
+} */
 const Layout = ({ children }) => {
   const { social } = useSiteMetadata()
   const { services } = useSiteMetadata()
@@ -33,8 +39,7 @@ const Layout = ({ children }) => {
       <Navbar siteSocial={social} />
       <Services ourServices={services} />
       <Works works={works} />
-      <Teama />
-
+   
       <div>
         <main>{children}</main>
         <footer>
@@ -50,5 +55,17 @@ const Layout = ({ children }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
-
+/* export const pageQuery = graphql`
+  query($slug: String!) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        image
+        slug
+        title
+      }
+    }
+  }
+` */
+  /*  console.log({ pageQuery }) */
 export default Layout
