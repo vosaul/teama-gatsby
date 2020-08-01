@@ -332,7 +332,7 @@ picture img { width: 100%; }
 
 .main_header .social_links a:hover { color: #aaaaaa; text-decoration: none; }
 
-#myVideo { width: 100%; height: auto; }
+#myVideo { width: 100%; height: auto; z-index: -1;}
 
 /* Add some content at the bottom of the video/page */
 .content { position: relative; bottom: 0; color: #f1f1f1; width: 100%; }
@@ -423,7 +423,7 @@ picture img { width: 100%; }
 
 @media (min-width: 768px) { .services .inner ul li { grid-template-columns: 1fr; align-items: end; } .about { grid-template-columns: 1fr 1fr; gap: 20px; } .team_item { grid-template-columns: 1fr 2fr; gap: 4rem; } }
 
-@media screen and (min-width: 1024px) { .services .inner ul li { grid-template-rows: max-content; align-items: start; } .main_header { position: fixed; } .inner { margin: 100px auto; } .intro { height: 100vh; } .filter, #myVideo { position: fixed; right: 50%; bottom: 0; min-width: 100%; min-height: 100%; transform: translateX(50%); -webkit-transform: translateX(50%); -moz-transform: translateX(50%); -ms-transform: translateX(50%); -o-transform: translateX(50%); } .filter { background: rgba(0, 0, 0, 0); } .about { grid-template-columns: 1fr 1fr 1fr 1fr; } .footer_grid { display: grid; grid-template-columns: 1fr 1fr 1fr; } .footer_grid .col1 { grid-column: 1; } .footer_grid .col2 { grid-column: 2; } .footer_grid .col3 { grid-column: 3; grid-row: 1; } .container { max-width: 1000px; padding-left: 50px; padding-right: 50px; } .container-fluid { width: 100%; } }
+@media screen and (min-width: 1024px) { .services .inner ul li { grid-template-rows: max-content; align-items: start; } .inner { margin: 100px auto; } .intro { height: 100vh; } .filter, #myVideo { position: fixed; right: 50%; bottom: 0; min-width: 100%; min-height: 100%; transform: translateX(50%); -webkit-transform: translateX(50%); -moz-transform: translateX(50%); -ms-transform: translateX(50%); -o-transform: translateX(50%); } .filter { background: rgba(0, 0, 0, 0); } .about { grid-template-columns: 1fr 1fr 1fr 1fr; } .footer_grid { display: grid; grid-template-columns: 1fr 1fr 1fr; } .footer_grid .col1 { grid-column: 1; } .footer_grid .col2 { grid-column: 2; } .footer_grid .col3 { grid-column: 3; grid-row: 1; } .container { max-width: 1000px; padding-left: 50px; padding-right: 50px; } .container-fluid { width: 100%; } }
 
 @media (max-width: 800px) { .intro .inner { margin: 30px auto; } .intro h2 { padding: 100px 0 0; font-size: 120px; letter-spacing: normal; } }
 

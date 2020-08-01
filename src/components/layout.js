@@ -10,6 +10,7 @@ import { Link } from "gatsby"
 import Navbar from "./navbar"
 import Services from "./services"
 import Works from "./works"
+import Video from "./video"
 import { useSiteMetadata } from "./use_static_query"
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "./main.css"
@@ -35,7 +36,7 @@ const Layout = ({ children }) => {
         </Link>
         <Navbar siteSocial={social} />
       </header>
-
+      <Video/>
       <Services ourServices={services} />
       <Works works={works} />
 

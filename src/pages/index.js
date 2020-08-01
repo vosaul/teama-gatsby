@@ -12,8 +12,8 @@ const Psts = ({ edges }) => {
   ))
 
   return (
-    <section class="container-fluid">
-      <div class="team_grid container">
+    <section className="container-fluid">
+      <div className="team_grid container">
         <h2>our team</h2>
         {Posts}
       </div>
