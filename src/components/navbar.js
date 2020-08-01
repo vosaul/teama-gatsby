@@ -4,7 +4,9 @@ import React from "react"
 
 const NavItem = (props) => {
   return (
-      <a href={props.link}>{props.title}</a>
+      <a href={props.link}>
+        <i className={props.icon}/>
+        </a>
   )
 }
 
@@ -12,14 +14,18 @@ const Navbar = (props) => {
   const Soc = props.siteSocial
   const socialsList = Soc.map((social, i) => {
     return (
+      <p className="social_links">
       <NavItem
         key={i}
         link={social.link}
+        icon={social.icon}
         title={social.title}
       />
+      </p>
     )
   })
-  return <nav>{socialsList}</nav>
+  return <>{socialsList}</>
 }
 
 export default Navbar
+

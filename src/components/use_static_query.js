@@ -17,6 +17,7 @@ export const useSiteMetadata = () => {
             social {
               link
               title
+              icon
             }
             works {
               title
