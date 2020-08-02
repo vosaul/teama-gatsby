@@ -5,6 +5,7 @@ module.exports = {
     description: `TEAMA is independent visual effects studio founded in 2020. Our artists have a huge experience working in hundreds of
         music videos, commercials and films in best VFX companies in Ukraine`,
     author: `@vosaul`,
+    email: `pm@teama.pro`,
     services: [
       {
         image: "../Ionicons/film.svg",

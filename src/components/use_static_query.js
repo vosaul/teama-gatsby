@@ -9,6 +9,7 @@ export const useSiteMetadata = () => {
             title
             subtitle
             author
+            email
             description
             services {
               image

@@ -1,10 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 import PostLink from "../components/post-link"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-//import Image from "../components/image"
 import SEO from "../components/seo"
+import InstaWidget from "../components/insta"
 
 const Psts = ({ edges }) => {
   const Posts = edges.map(edge => (
@@ -28,15 +27,11 @@ const IndexPage = ({
 }) => (
   <Layout>
     <SEO title="Teama" />
-    <div id="navbar" />
+    <div id="navbar" key="navbar"/>
     <div id="container" />
-    <Psts edges={edges} />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link>
-    </p>
-    <p>
-      <Link to="/list/">Go posts list</Link>
-    </p>
+    <Psts edges={edges} key={edges.id} />
+    <InstaWidget />
+
   </Layout>
 )
 
