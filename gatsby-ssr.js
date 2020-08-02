@@ -13,9 +13,5 @@ export const onRenderBody = (
   setPostBodyComponents([
     <script src="./static/js/jquery.magnific-popup.min.js" defer />,
     <script src="./static/js/vr360.js" />,
-    <script
-     /*  src="./static/js/components/instagram-widget.min.js"
-      type="text/javascript" */
-    />,
   ])
 }
