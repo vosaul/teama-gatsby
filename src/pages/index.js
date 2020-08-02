@@ -3,7 +3,25 @@ import PostLink from "../components/post-link"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import InstaWidget from "../components/insta"
+//import "@ptkdev/webcomponent-instagram-widget"
+
+//const InstaWidget = () => {
+//  return (
+//    <section className="container insta_box">
+//      <h3>join us on instagram</h3>
+//      <instagram-widget
+//        username="@teama.pro"
+//        grid="4x4"
+//        force-square="yes"
+//        items-limit="9"
+//        image-width="50%"
+//        image-height="50%"
+//        border-corners="5"
+//        border-spacing="5px"
+//      ></instagram-widget>
+//    </section>
+//  )
+//}
 
 const Psts = ({ edges }) => {
   const Posts = edges.map(edge => (
@@ -30,7 +48,6 @@ const IndexPage = ({
     <div id="navbar" key="navbar"/>
     <div id="container" />
     <Psts edges={edges} key={edges.id} />
-    <InstaWidget />
 
   </Layout>
 )
