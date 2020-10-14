@@ -52,6 +52,14 @@ module.exports = {
     ],
     works: [
       {
+        title: "Vessbroz, Mark Voss Feat. Michelle Montezeri - In The Dark (360 Official Video)",
+        tags: ["vr360", "video editing", "clean up", "color correction", "modeling", "animation", "compositing", "edit", "smoke simulation", "keying / roto"],
+        w_link: "https://www.youtube.com/watch?v=l4nrivLGFC0",
+        image: "/images/6.png",
+        img_m: "/images/6-748.png",
+        img_s: "/images/6-580.png",
+      },
+      {
         title: "AVK Trueffle Escalator",
         tags: ["compositing", "clean up", "keying/roto"],
         w_link: "https://www.youtube.com/watch?v=ijRxRvgx0Vs",

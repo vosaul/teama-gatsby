@@ -2,7 +2,6 @@ import React from "react"
 import Navbar from "./navbar"
 
 const Footer = props => {
-  console.log({props})
 return (
   <footer className="site_footer container-fluid">
     <div className="wrapper">
@@ -25,7 +24,7 @@ return (
             </a>
           </p>
           <p>
-            <span>&#169;</span> TEAMA, 202010px
+            <span>&#169;</span> TEAMA, 2020
           </p>
         </div>
 
