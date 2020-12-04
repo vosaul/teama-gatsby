@@ -16,12 +16,20 @@ ourServices:
     info: Our main goal is to bring creativity in each shot and share positive
       experiences between us and the client.
 works:
+  - title: Flipperachi - T.N.F.S تنفس - فلبراتشي
+    tags: [compositing, clean up, roto, color correction]
+    link: https://www.youtube.com/watch?v=-hjoEDQCvMQ?autoplay=1
+    image: /assets/images/7.jpg
+    img-m: /assets/images/7-748.jpg
+    img-s: /assets/images/7-580.jpg
+    
   - title: Vessbroz, Mark Voss Feat. Michelle Montezeri - In The Dark (360 Official Video)
     tags: [vr360,  video editing, clean up, color correction,  modeling, animation, compositing, edit, smoke simulation, keying/roto]
     link: https://www.youtube.com/watch?v=l4nrivLGFC0
-    image: /assets/images/6.png
-    img-m: /assets/images/6-748.png
-    img-s: /assets/images/6-580.png
+    image: /assets/images/6.jpg
+    img-m: /assets/images/6-748.jpg
+    img-s: /assets/images/6-580.jpg
+    
   - title: AVK Trueffle Escalator
     tags : [compositing, clean up, keying/roto]
     link :  "https://www.youtube.com/watch?v=ijRxRvgx0Vs"
@@ -47,9 +55,9 @@ works:
     tags : [full cg, modeling, animation, crowd simulation , fire simulation, explosion simulation , rain simulation, hair simulation, smoke simulation, water simulation, grains simulation, edit, compositing, color grading, sound design] 
     info : 'This is "TEAMA" by Saulyak Roman on Vimeo, the home for high quality videos and the people who love them.'
     link : "https://vimeo.com/430288087"
-    image: "/images/4.png"
-    img-m: "/images/4-748.png"
-    img-s: "/images/4-580.png"
+    image: "/images/4.jpg"
+    img-m: "/images/4-748.jpg"
+    img-s: "/images/4-580.jpg"
 social:
   - link: "https://www.youtube.com/channel/UC3CDh3xGYOGA7CdVYXFO_Ew"
     icon: "ion-social-youtube"
