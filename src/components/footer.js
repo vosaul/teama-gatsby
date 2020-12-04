@@ -9,7 +9,7 @@ return (
         <div className="footer_col col1">
           <p>
             <a className="u-email" href="mailto:" {...props.email}>
-              <span>&#128231;</span> {props.email}
+              <span>&#x2709a;</span> {props.email}
             </a>
           </p>
           <p>Created by Gatsby</p>

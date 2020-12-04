@@ -12,6 +12,6 @@ export const onRenderBody = (
 ) => {
   setPostBodyComponents([
     <script src="./static/js/jquery.magnific-popup.min.js" defer />,
-    <script src="./static/js/vr359.js" />,
+    <script src="./static/js/vr360.js" />,
   ])
 }
