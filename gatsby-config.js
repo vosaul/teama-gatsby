@@ -6,28 +6,6 @@ module.exports = {
         music videos, commercials and films in best VFX companies in Ukraine`,
     author: `@vosaul`,
     email: `pm@teama.pro`,
-    services: [
-      {
-        image: "../Ionicons/film.svg",
-        info:
-          "TEAMA is an independent visual effects studio founded in 2020. Our artists  have a huge experience working in hundreds of music videos, commercials, and films in the best VFX companies in Ukraine.",
-      },
-      {
-        image: "../Ionicons/flower.svg",
-        info:
-          "We work on each project with an individual approach and give all our best at every stage of its implementation - from tests and concepts to the final delivery.",
-      },
-      {
-        image: "../Ionicons/videocam.svg",
-        info:
-          "We provide such ourServices as compositing, clean up, beauty retouch, matte painting, editing 360 videos, color grading, 3d  modeling, simulation, and animation, etc.",
-      },
-      {
-        image: "../Ionicons/rocket.svg",
-        info:
-          "Our main goal is to bring creativity in each shot and share positive experiences between us and the client.",
-      },
-    ],
     social: [
       {
         link: "https://www.youtube.com/channel/UC3CDh3xGYOGA7CdVYXFO_Ew",
@@ -169,6 +147,36 @@ plugins: [
   `gatsby-transformer-remark`,
   `gatsby-transformer-sharp`,
   `gatsby-plugin-sharp`,
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      // In your gatsby-transformer-remark plugin array
+      plugins: [{
+        resolve: 'gatsby-remark-emojis',
+        options: {
+          // Deactivate the plugin globally (default: true)
+          active : true,
+          // Add a custom css class
+          class  : 'emoji-icon',
+          // In order to avoid pattern mismatch you can specify
+          // an escape character which will be prepended to the
+          // actual pattern (e.g. `#:poop:`).
+          escapeCharacter : '#', // (default: '')
+          // Select the size (available size: 16, 24, 32, 64)
+          size   : 64,
+          // Add custom styles
+          styles : {
+            display      : 'inline',
+            margin       : '0',
+            'margin-top' : '1px',
+            position     : 'relative',
+            top          : '5px',
+            width        : '30px'
+          }
+        }
+      }]
+    }
+  },
   {
     resolve: `gatsby-plugin-manifest`,
     options: {

@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 const PostLink = ({ post }) => (
   <div className="team_item">
@@ -7,12 +6,12 @@ const PostLink = ({ post }) => (
       <img
         src={post.frontmatter.image}
         alt="{post.frontmatter.title}"
-        className="author_img"
+        className="author_image"
       />
     </div>
     <div className="text_box">
       <h3>
-        <Link to={post.frontmatter.slug}>{post.frontmatter.title}</Link>
+        {post.frontmatter.title}
       </h3>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>

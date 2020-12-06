@@ -8,7 +8,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import Navbar from "./navbar"
-import Services from "./services"
+/* import Services from "./services" */
+import ServicesY from "./services_yaml"
 import Works from "./works"
 import Video from "./video"
 import { useSiteMetadata } from "./use_static_query"
@@ -19,7 +20,7 @@ import Footer from "./footer"
 
 const Layout = ({ children }) => {
   const { social } = useSiteMetadata()
-  const { services } = useSiteMetadata()
+  /* const { services } = useSiteMetadata() */
   const { works } = useSiteMetadata()
   const { title } = useSiteMetadata()
   const { email } = useSiteMetadata()
@@ -39,7 +40,8 @@ const Layout = ({ children }) => {
         <Navbar siteSocial={social} />
       </header>
       <Video />
-      <Services ourServices={services} />
+      {/* <Services ourServices={services} /> */}
+      <ServicesY />
       <Works works={works} />
       <main>{children}</main>
       <Footer

@@ -9,7 +9,14 @@ return (
         <div className="footer_col col1">
           <p>
             <a className="u-email" href="mailto:" {...props.email}>
-              <span>&#x2709a;</span> {props.email}
+              <span
+                role="img"
+                aria-label="email"
+                style={{ "font-size": "22px" }}
+              >
+                📨
+              </span>{" "}
+              {props.email}
             </a>
           </p>
           <p>Created by Gatsby</p>

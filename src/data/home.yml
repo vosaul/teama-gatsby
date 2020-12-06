@@ -1,18 +1,18 @@
 title: our ourServices
 ourServices:
-  - icon: /assets/Ionicons/film.svg
+  - icon: ../Ionicons/film.svg
     info: TEAMA is an independent visual effects studio founded in 2020. Our artists
       have a huge experience working in hundreds of music videos, commercials,
       and films in the best VFX companies in Ukraine.
-  - icon: /assets/Ionicons/flower.svg
+  - icon: ../Ionicons/flower.svg
     info: We work on each project with an individual approach and give all our best
       at every stage of its implementation - from tests and concepts to the
       final delivery.
-  - icon: /assets/Ionicons/videocam.svg
+  - icon: ../Ionicons/videocam.svg
     info: We provide such ourServices as compositing, clean up, beauty retouch, matte
       painting, editing 360 videos, color grading, 3d  modeling, simulation, and
       animation, etc.
-  - icon: /assets/Ionicons/rocket.svg
+  - icon: ../Ionicons/rocket.svg
     info: Our main goal is to bring creativity in each shot and share positive
       experiences between us and the client.
 works:
