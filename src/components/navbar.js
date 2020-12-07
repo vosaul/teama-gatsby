@@ -16,7 +16,7 @@ const Navbar = props => {
     return (
       <>
         <NavItem
-          key={i}
+          key={i.toString()}
           link={social.link}
           icon={social.icon}
           title={social.title}

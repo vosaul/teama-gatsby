@@ -37,7 +37,7 @@ return (
 
         <div className="footer_col col2">
           <h3>Join Us at</h3>
-          <Navbar siteSocial={props.social} />
+          <Navbar siteSocial={props.social} key={props.social.id} />
         </div>
 
         <div className="footer_col col3">

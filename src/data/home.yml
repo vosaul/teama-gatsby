@@ -1,73 +1,31 @@
-title: our ourServices
-ourServices:
-  - icon: ../Ionicons/film.svg
+title: our services
+services:
+  - icon: /Ionicons/film.svg
     info: TEAMA is an independent visual effects studio founded in 2020. Our artists
       have a huge experience working in hundreds of music videos, commercials,
       and films in the best VFX companies in Ukraine.
-  - icon: ../Ionicons/flower.svg
+  - icon: /Ionicons/flower.svg
     info: We work on each project with an individual approach and give all our best
       at every stage of its implementation - from tests and concepts to the
       final delivery.
-  - icon: ../Ionicons/videocam.svg
-    info: We provide such ourServices as compositing, clean up, beauty retouch, matte
+  - icon: /Ionicons/videocam.svg
+    info: We provide such services as compositing, clean up, beauty retouch, matte
       painting, editing 360 videos, color grading, 3d  modeling, simulation, and
       animation, etc.
-  - icon: ../Ionicons/rocket.svg
+  - icon: /Ionicons/rocket.svg
     info: Our main goal is to bring creativity in each shot and share positive
       experiences between us and the client.
-works:
-  - title: Flipperachi - T.N.F.S تنفس - فلبراتشي
-    tags: [compositing, clean up, roto, color correction]
-    link: https://www.youtube.com/watch?v=-hjoEDQCvMQ?autoplay=1
-    image: /assets/images/7.jpg
-    img-m: /assets/images/7-748.jpg
-    img-s: /assets/images/7-580.jpg
-    
-  - title: Vessbroz, Mark Voss Feat. Michelle Montezeri - In The Dark (360 Official Video)
-    tags: [vr360,  video editing, clean up, color correction,  modeling, animation, compositing, edit, smoke simulation, keying/roto]
-    link: https://www.youtube.com/watch?v=l4nrivLGFC0
-    image: /assets/images/6.jpg
-    img-m: /assets/images/6-748.jpg
-    img-s: /assets/images/6-580.jpg
-    
-  - title: AVK Trueffle Escalator
-    tags : [compositing, clean up, keying/roto]
-    link :  "https://www.youtube.com/watch?v=ijRxRvgx0Vs"
-    image: "/images/1.jpg"
-    img-m: "/images/1-748.jpg"
-    img-s: "/images/1-580.jpg"
-  
-  - title: Trueffle. Made right.
-    tags : [compositing, clean up, keying/roto]
-    link : "https://www.youtube.com/watch?v=0NRMMzSCwm4"
-    image: "/images/2.jpg"
-    img-m: "/images/2-748.jpg"
-    img-s: "/images/2-580.jpg"
-  
-  - title: Earth in The space
-    tags : [3d, compositing]
-    link : "https://www.youtube.com/watch?v=Rk_qYfnGnLM"
-    image: "/images/3.jpg"
-    img-m: "/images/3-748.jpg"
-    img-s: "/images/3-580.jpg"
-  
-  - title: Teama
-    tags : [full cg, modeling, animation, crowd simulation , fire simulation, explosion simulation , rain simulation, hair simulation, smoke simulation, water simulation, grains simulation, edit, compositing, color grading, sound design] 
-    info : 'This is "TEAMA" by Saulyak Roman on Vimeo, the home for high quality videos and the people who love them.'
-    link : "https://vimeo.com/430288087"
-    image: "/images/4.jpg"
-    img-m: "/images/4-748.jpg"
-    img-s: "/images/4-580.jpg"
+
 social:
-  - link: "https://www.youtube.com/channel/UC3CDh3xGYOGA7CdVYXFO_Ew"
-    icon: "ion-social-youtube"
+  - link: https://www.youtube.com/channel/UC3CDh3xGYOGA7CdVYXFO_Ew
+    icon: ion-social-youtube
     title: youtube
-  - link: "https://www.facebook.com/Teamapro-106009800973549/"
-    icon: "ion-social-facebook"
+  - link: https://www.facebook.com/Teamapro-106009800973549/
+    icon: ion-social-facebook
     title: facebook
-  - link: "https://www.instagram.com/teama.pro/"
-    icon: "ion-social-instagram"
+  - link: https://www.instagram.com/teama.pro/
+    icon: ion-social-instagram
     title: instagram
-  - link: "https://www.linkedin.com/company/teama-pro/"
-    icon: "ion-social-linkedin"
+  - link: https://www.linkedin.com/company/teama-pro/
+    icon: ion-social-linkedin
     title: linkedin

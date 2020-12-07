@@ -1,11 +1,11 @@
-/**
+/*
  * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
  *
  * See: https://www.gatsbyjs.org/docs/ssr-apis/
  */
 
 // You can delete this file if you're not using it
-import React from "react"
+/* import React from "react"
 export const onRenderBody = (
   { setHeadComponents, setPostBodyComponents },
   pluginOptions
@@ -14,4 +14,4 @@ export const onRenderBody = (
     <script src="./static/js/jquery.magnific-popup.min.js" defer />,
     <script src="./static/js/vr360.js" />,
   ])
-}
+} */

@@ -11,8 +11,7 @@ const ServiceItem = props => {
 const Services = props => {
   const Serv = props.ourServices
   const servList = Serv.map((serv, i) => {
-    return (
-    <ServiceItem key={i} icon={serv.image} info={serv.info} />)
+    return <ServiceItem key={serv.id} icon={serv.image} info={serv.info} />
   })
   return (
   <div className="content ">

@@ -1,9 +1,24 @@
 import React from "react"
+import ourWorks from '../data/works.yml'
+ 
+const Tags = props => {
+const T = props.tags
+const TagsL = T.map((tag,i) => {
+  return (
+    <span 
+    style={{margin: `2px 5px 15px`, fontSize: `14px`, fontWeight:`100`}}>🏷{tag} </span>
+  )
+})
+return TagsL
+}
 
 const WorkItem = props => {
   return (
     <div className="video_item container">
       <h3>{props.title}</h3>
+      <p>
+      <Tags tags={props.tags} />
+      </p>
       <a className="video360" href={props.w_link}>
         <picture>
           <img srcSet={props.image} alt="work" />
@@ -17,9 +32,8 @@ const WorkItem = props => {
     </div>
   )
 }
-const Works = props => {
-  const W = props.works
-  const wList = W.map((work, i) => {
+const WorksY = () => {
+  const wList = ourWorks.map((work, i) => {
     return (
       <WorkItem
         key={work.id}
@@ -28,6 +42,7 @@ const Works = props => {
         img_s={work.img_s}
         title={work.title}
         w_link={work.w_link}
+        tags={work.tags}
       />
     )
   })
@@ -38,4 +53,4 @@ const Works = props => {
     </section>
   )
 }
-export default Works
+export default WorksY

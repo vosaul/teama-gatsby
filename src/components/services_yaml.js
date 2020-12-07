@@ -10,10 +10,10 @@ const ServiceItem = props => {
   )
 }
 const Services = () => {
-  const Serv = ymlServ.ourServices
+  const Serv = ymlServ.services
   const servList = Serv.map((serv, i) => {
     return (
-    <ServiceItem key={`serv-@{i}`} icon={serv.icon} info={serv.info} />)
+    <ServiceItem key={serv.id} icon={serv.icon} info={serv.info} />)
   })
   return (
   <div className="content ">

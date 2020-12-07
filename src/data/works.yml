@@ -1,16 +1,16 @@
 - title: Flipperachi - T.N.F.S تنفس - فلبراتشي
   tags: [compositing, clean up, roto, color correction]
   link: https://www.youtube.com/watch?v=-hjoEDQCvMQ?autoplay=1
-  image: /assets/images/7.jpg
-  img-m: /assets/images/7-748.jpg
-  img-s: /assets/images/7-580.jpg
+  image: /images/7.jpg
+  img-m: /images/7-748.jpg
+  img-s: /images/7-580.jpg
 
 - title: Vessbroz, Mark Voss Feat. Michelle Montezeri - In The Dark (360 Official Video)
   tags: [vr360,  video editing, clean up, color correction,  modeling, animation, compositing, edit, smoke simulation, keying/roto]
   link: https://www.youtube.com/watch?v=l4nrivLGFC0
-  image: /assets/images/6.jpg
-  img-m: /assets/images/6-748.jpg
-  img-s: /assets/images/6-580.jpg
+  image: /images/6.jpg
+  img-m: /images/6-748.jpg
+  img-s: /images/6-580.jpg
 
 - title: AVK Trueffle Escalator
   tags:
@@ -18,9 +18,9 @@
     - clean up
     - keying/roto
   link: https://www.youtube.com/watch?v=ijRxRvgx0Vs
-  image: /assets/images/1.jpg
-  img-m: /assets/images/1-748.jpg
-  img-s: /assets/images/1-580.jpg
+  image: /images/1.jpg
+  img-m: /images/1-748.jpg
+  img-s: /images/1-580.jpg
 
 - title: Trueffle. Made right.
   tags:
@@ -28,9 +28,9 @@
     - clean up
     - keying/roto
   link: https://www.youtube.com/watch?v=n7mIUxvHi3A
-  image: /assets/images/2.jpg
-  img-m: /assets/images/2-748.jpg
-  img-s: /assets/images/2-580.jpg
+  image: /images/2.jpg
+  img-m: /images/2-748.jpg
+  img-s: /images/2-580.jpg
 
 - title: Earth in The space
   link: https://www.youtube.com/watch?v=Rk_qYfnGnLM
@@ -52,9 +52,9 @@
     - compositing
     - color grading
     - sound design
-  image: /assets/images/3.jpg
-  img-m: /assets/images/3-748.jpg
-  img-s: /assets/images/3-580.jpg
+  image: /images/3.jpg
+  img-m: /images/3-748.jpg
+  img-s: /images/3-580.jpg
 
 - title: Teama
   tags:
@@ -76,9 +76,9 @@
   info: This is "TEAMA" by Saulyak Roman on Vimeo, the home for high quality
     videos and the people who love them.
   link: https://vimeo.com/430288087
-  image: /assets/images/4.jpg
-  img-m: /assets/images/4-748.jpg
-  img-s: /assets/images/4-580.jpg
+  image: /images/4.jpg
+  img-m: /images/4-748.jpg
+  img-s: /images/4-580.jpg
 
 - title: Inner Sanctum - Tainted Soils | OFFICIAL 360 DEGREE JAM VIDEO
   tags:
@@ -92,6 +92,6 @@
     version of Chrome, Opera, Firefox, or MS Edge. On mobile devices, use the
     latest version of the YouTube app.
   link: https://www.youtube.com/watch?v=1VGUa-1Djko
-  image: /assets/images/5.JPG
-  img-m: /assets/images/5-748.JPG
-  img-s: /assets/images/5-580.JPG
+  image: /images/5.JPG
+  img-m: /images/5-748.JPG
+  img-s: /images/5-580.JPG
