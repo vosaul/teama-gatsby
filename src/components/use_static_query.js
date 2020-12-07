@@ -11,10 +11,6 @@ export const useSiteMetadata = () => {
             author
             email
             description
-            services {
-              image
-              info
-            }
             social {
               link
               title

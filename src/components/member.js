@@ -4,7 +4,6 @@ import React from "react"
 const Member = (data) =>  
  {
   //const { markdownRemark } = data // data.markdownRemark holds your post data
-  console.log({data})
   //const { frontmatter, html } = markdownRemark
   return (
     <div className="blog-post-container">

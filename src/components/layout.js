@@ -8,8 +8,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import Navbar from "./navbar"
-import Services from "./services"
-import Works from "./works"
+/* import Services from "./services" */
+import ServicesY from "./services_yaml"
+//import Works from "./works"
+import WorksY from "./works_yaml"
 import Video from "./video"
 import { useSiteMetadata } from "./use_static_query"
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -19,8 +21,8 @@ import Footer from "./footer"
 
 const Layout = ({ children }) => {
   const { social } = useSiteMetadata()
-  const { services } = useSiteMetadata()
-  const { works } = useSiteMetadata()
+  /* const { services } = useSiteMetadata() */
+//  const { works } = useSiteMetadata()
   const { title } = useSiteMetadata()
   const { email } = useSiteMetadata()
   const { description } = useSiteMetadata()
@@ -39,8 +41,11 @@ const Layout = ({ children }) => {
         <Navbar siteSocial={social} />
       </header>
       <Video />
-      <Services ourServices={services} />
-      <Works works={works} />
+      {/* <Services ourServices={services} /> */}
+      <ServicesY />
+      {/* <Works works={works} />
+      <hr/> */}
+      <WorksY />
       <main>{children}</main>
       <Footer
         title={title}

@@ -1,5 +1,5 @@
-import React from "react"
-import Navbar from "./navbar"
+import React from 'react'
+import Navbar from './navbar'
 
 const Footer = props => {
 return (
@@ -9,7 +9,14 @@ return (
         <div className="footer_col col1">
           <p>
             <a className="u-email" href="mailto:" {...props.email}>
-              <span>&#128231;</span> {props.email}
+              <span
+                role="img"
+                aria-label="email"
+                style={{ "font-size": "22px" }}
+              >
+                📨
+              </span>{" "}
+              {props.email}
             </a>
           </p>
           <p>Created by Gatsby</p>
@@ -30,7 +37,7 @@ return (
 
         <div className="footer_col col2">
           <h3>Join Us at</h3>
-          <Navbar siteSocial={props.social} />
+          <Navbar siteSocial={props.social} key={props.social.id} />
         </div>
 
         <div className="footer_col col3">

@@ -1,4 +1,5 @@
 import React from "react"
+import ymlServ from '../data/home.yml'
 
 const ServiceItem = props => {
   return (
@@ -8,10 +9,11 @@ const ServiceItem = props => {
     </li>
   )
 }
-const Services = props => {
-  const Serv = props.ourServices
+const Services = () => {
+  const Serv = ymlServ.services
   const servList = Serv.map((serv, i) => {
-    return <ServiceItem key={serv.id} icon={serv.image} info={serv.info} />
+    return (
+    <ServiceItem key={serv.id} icon={serv.icon} info={serv.info} />)
   })
   return (
   <div className="content ">
