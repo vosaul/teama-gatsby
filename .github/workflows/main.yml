@@ -27,6 +27,8 @@ jobs:
       - uses: enriikke/gatsby-gh-pages-action@v2 
         with: 
           access-token:  ${{ secrets.GITHUB_TOKEN }}
+          deploy-branch: gh-pages
+      
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
