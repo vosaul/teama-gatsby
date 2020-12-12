@@ -17,11 +17,11 @@ module.exports = {
         icon: "ion-social-facebook",
         title: "facebook",
       },
-      {
+      /* {
         link: "https://www.instagram.com/teama.pro/",
         icon: "ion-social-instagram",
         title: "instagram",
-      },
+      }, */
       {
         link: "https://www.linkedin.com/company/teama-pro/",
         icon: "ion-social-linkedin",

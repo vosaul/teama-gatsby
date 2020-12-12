@@ -9,7 +9,6 @@
     "@hapi/topo": "^3.1.6",
     "@mdx-js/mdx": "^1.6.14",
     "@mdx-js/react": "^1.6.14",
-    "@ptkdev/webcomponent-instagram-widget": "latest",
     "acorn": "^6.4.1",
     "bootstrap": "^4.5.0",
     "core-js": "^3.8.0",
