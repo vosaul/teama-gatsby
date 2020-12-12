@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: enriikke/gatsby-gh-pages-action@v2 
         with: 
-          access-token: 1861ede86875a9cdcd052deb74a99ed9b29bf2c4
+          access-token: 64bd8c861f5545687fcef022b18ea6628c0e331f
           deploy-branch: public
 
 #access-token: ${{ secrets.'1861ede86875a9cdcd052deb74a99ed9b29bf2c4' }}
