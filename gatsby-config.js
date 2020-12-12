@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "teama-gatsby",
   siteMetadata: {
     title: `Teama`,
     subtitle: `VISUAL EFFECTS STUDIO`,
