@@ -27,6 +27,7 @@ jobs:
       - uses: enriikke/gatsby-gh-pages-action@v2 
         with: 
           access-token: 1861ede86875a9cdcd052deb74a99ed9b29bf2c4
+          deploy-branch: public
 
 #access-token: ${{ secrets.'1861ede86875a9cdcd052deb74a99ed9b29bf2c4' }}
       # Runs a single command using the runners shell
