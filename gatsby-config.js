@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "teama-gatsby",
+  pathPrefix: "gh-pages",
   siteMetadata: {
     title: `Teama`,
     subtitle: `VISUAL EFFECTS STUDIO`,
