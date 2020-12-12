@@ -29,7 +29,6 @@ jobs:
           access-token:  ${{ secrets.GITHUB_TOKEN }}
           deploy-branch: public
 
-#access-token: ${{ secrets.'1861ede86875a9cdcd052deb74a99ed9b29bf2c4' }}
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
