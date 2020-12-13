@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "gh-pages",
   siteMetadata: {
     title: `Teama`,
     subtitle: `VISUAL EFFECTS STUDIO`,
