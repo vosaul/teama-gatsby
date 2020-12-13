@@ -17,11 +17,11 @@ module.exports = {
         icon: "ion-social-facebook",
         title: "facebook",
       },
-      /* {
+      {
         link: "https://www.instagram.com/teama.pro/",
         icon: "ion-social-instagram",
         title: "instagram",
-      }, */
+      },
       {
         link: "https://www.linkedin.com/company/teama-pro/",
         icon: "ion-social-linkedin",
@@ -180,8 +180,8 @@ plugins: [
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `gatsby-starter-default`,
-      short_name: `starter`,
+      name: `teama-visual-effects-studio`,
+      short_name: `teama`,
       start_url: `/`,
       background_color: `#663399`,
       theme_color: `#663399`,
