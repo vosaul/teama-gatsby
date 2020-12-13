@@ -43,6 +43,8 @@ return (
         <div className="footer_col col3">
           <h3>{props.title}</h3>
           <p>{props.description}</p>
+          <br />
+          <p><a href="/privacy-policy/">Privacy Policy</a> </p>
         </div>
       </div>
     </div>

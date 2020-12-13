@@ -1,10 +1,12 @@
 import React from "react"
-
-import Layout from "../components/layout"
+import {social} from "../data/home.yml"
+import Navbar from "../components/navbar"
 import SEO from "../components/seo"
 
-const NotFoundPage = () => (
-  <Layout>
+const Privacy = () => (
+  <>
+  <Navbar siteSocial={social} />
+  <section className="container-fluid">
     <SEO title="Privacy Policy" />
     <h2>Privacy Policy</h2>
     <p>
@@ -48,8 +50,8 @@ const NotFoundPage = () => (
       free to contact us.
     </p>
     <p>This policy is effective as of 13 December 2020.</p>
-
-  </Layout>
+  </section>
+  </>
 )
 
-export default NotFoundPage
+export default Privacy
