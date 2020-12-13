@@ -3,6 +3,8 @@ import {social} from "../data/home.yml"
 import Navbar from "../components/navbar"
 import SEO from "../components/seo"
 import Footer from "../components/footer"
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import "../components/main.css"
 
 const Privacy = () => (
   <main className="page-content">
