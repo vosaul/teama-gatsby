@@ -14,14 +14,12 @@ const Navbar = props => {
   const Soc = props.siteSocial
   const socialsList = Soc.map((social, i) => {
     return (
-      <>
         <NavItem
           key={i.toString()}
           link={social.link}
           icon={social.icon}
           title={social.title}
         />
-      </>
     )
   })
   return <p className="social_links">{socialsList}</p>

@@ -12,7 +12,7 @@ return (
               <span
                 role="img"
                 aria-label="email"
-                style={{ "font-size": "22px" }}
+                style={{ "fontSize": "22px" }}
               >
                 📨
               </span>{" "}
@@ -37,7 +37,7 @@ return (
 
         <div className="footer_col col2">
           <h3>Join Us at</h3>
-          <Navbar siteSocial={props.social} key={props.social.id} />
+          <Navbar siteSocial={props.social} />
         </div>
 
         <div className="footer_col col3">

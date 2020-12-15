@@ -3,6 +3,8 @@ import PostLink from "../components/post-link"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ImageGallery from "../components/imageGallery"
+
 /* import "@ptkdev/webcomponent-instagram-widget"
 
 const InstaWidget = () => {
@@ -21,8 +23,8 @@ const InstaWidget = () => {
       ></instagram-widget>
     </section>
   )
-}
- */
+} */
+
 const Psts = ({ edges }) => {
   const Posts = edges.map(edge => (
     <PostLink post={edge.node} />
@@ -45,10 +47,16 @@ const IndexPage = ({
 }) => (
   <Layout>
     <SEO title="Teama" />
-    <div id="navbar" key="navbar"/>
+    <div id="navbar" key="navbar" />
     <div id="container" />
     <Psts edges={edges} key={edges.id} />
-   {/*  <InstaWidget /> */}
+
+    {/* <InstaWidget /> */}
+    <section className="container insta_box">
+      <h3>Join us on Instagram</h3>
+      <ImageGallery />
+    </section>
+
   </Layout>
 )
 
