@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 //import "@ptkdev/webcomponent-instagram-widget"
 
-const InstaWidget = () => {
+/* const InstaWidget = () => {
   return (
     <section className="container insta_box">
       <h3>join us on instagram</h3>
@@ -23,7 +23,7 @@ const InstaWidget = () => {
       ></instagram-widget>
     </section>
   )
-}
+} */
 
 const Psts = ({ edges }) => {
   const Posts = edges.map(edge => (
