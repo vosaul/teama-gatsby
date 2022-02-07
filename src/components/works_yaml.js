@@ -41,7 +41,7 @@ const WorksY = () => {
         img_m={work.img_m}
         img_s={work.img_s}
         title={work.title}
-        w_link={work.w_link}
+        link={work.link}
         tags={work.tags}
       />
     )

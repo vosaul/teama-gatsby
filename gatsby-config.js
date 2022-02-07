@@ -52,7 +52,7 @@ module.exports = {
           "smoke simulation",
           "keying/roto",
         ],
-        w_link: "https://www.youtube.com/watch?v=l4nrivLGFC0",
+        link: "https://www.youtube.com/watch?v=l4nrivLGFC0",
         image: "/images/6.png",
         img_m: "/images/6-748.png",
         img_s: "/images/6-580.png",
@@ -60,7 +60,7 @@ module.exports = {
       {
         title: "AVK Trueffle Escalator",
         tags: ["compositing", "clean up", "keying/roto"],
-        w_link: "https://www.youtube.com/watch?v=ijRxRvgx0Vs",
+        link: "https://www.youtube.com/watch?v=ijRxRvgx0Vs",
         image: "/images/1.jpg",
         img_m: "/images/1-748.jpg",
         img_s: "/images/1-580.jpg",
@@ -68,7 +68,7 @@ module.exports = {
       {
         title: "Trueffle. Made right.",
         tags: ["compositing", "clean up", "keying/roto"],
-        w_link: "https://www.youtube.com/watch?v=n7mIUxvHi3A",
+        link: "https://www.youtube.com/watch?v=n7mIUxvHi3A",
         image: "/images/2.jpg",
         img_m: "/images/2-748.jpg",
         img_s: "/images/2-580.jpg",
@@ -76,7 +76,7 @@ module.exports = {
       {
         title: "Earth in The space",
         tags: ["3d", "compositing"],
-        w_link: "https://www.youtube.com/watch?v=Rk_qYfnGnLM",
+        link: "https://www.youtube.com/watch?v=Rk_qYfnGnLM",
         image: "/images/3.jpg",
         img_m: "/images/3-748.jpg",
         img_s: "/images/3-580.jpg",
@@ -102,7 +102,7 @@ module.exports = {
         ],
         info:
           'This is "TEAMA" by Saulyak Roman on Vimeo, the home for high quality videos and the people who love them.',
-        w_link: "https://vimeo.com/430288087",
+        link: "https://vimeo.com/430288087",
         image: "/images/4.png",
         img_m: "/images/4-748.png",
         img_s: "/images/4-580.png",
@@ -118,7 +118,7 @@ module.exports = {
         ],
         info:
           "This is a jam video of the band performing the track 'Tainted Soils' from the album Legions Awake. To watch this 360° video, you need the latest version of Chrome, Opera, Firefox, or MS Edge. On mobile devices, use the latest version of the YouTube app.",
-        w_link: "https://www.youtube.com/watch?v=1VGUa-1Djko",
+        link: "https://www.youtube.com/watch?v=1VGUa-1Djko",
         image: "/images/5.jpg",
         img_m: "/images/5-748.jpg",
         img_s: "/images/5-580.jpg",
