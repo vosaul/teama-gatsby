@@ -51,11 +51,11 @@ const IndexPage = ({
     <div id="container" />
     <Psts edges={edges} key={edges.id} />
 
-    <section className="container insta_box">
+    {/* <section className="container insta_box">
       <h3>Join us on Instagram</h3>
     <InstaWidget />
-      {/* <ImageGallery /> */}
-    </section>
+      <ImageGallery />
+    </section> */}
 
   </Layout>
 )
