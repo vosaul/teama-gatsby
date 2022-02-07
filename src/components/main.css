@@ -384,6 +384,7 @@ picture img { width: 100%; }
   cursor: pointer;
   display: block;
   height: fit-content;
+  z-index: 20;
 }
 
 /* TEAM */
