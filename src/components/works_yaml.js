@@ -19,7 +19,7 @@ const WorkItem = props => {
       <p>
       <Tags tags={props.tags} />
       </p>
-      <a className="video360" href={props.w_link}>
+      <a className="video360" href={props.w_link} target="_blank">
         <picture>
           <img srcSet={props.image} alt="work" />
           <source srcSet={props.im_s} media="(max-width: 600px)" />

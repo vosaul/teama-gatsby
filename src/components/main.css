@@ -380,6 +380,12 @@ picture img { width: 100%; }
 
 .works .video_item .tag { padding: 5px 10px 15px 0; }
 
+.works .video_item .video360 { 
+  cursor: pointer;
+  display: block;
+  height: fit-content;
+}
+
 /* TEAM */
 .team_grid { display: grid; gap: 6rem; padding: 50px 20px; background: rgba(0, 0, 0, 0.95); }
 
