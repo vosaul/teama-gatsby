@@ -4,7 +4,7 @@ const WorkItem = props => {
   return (
     <div className="video_item container">
       <h3>{props.title}</h3>
-      <a className="video360" href={props.w_link}>
+      <a className="video360" href={props.link}>
         <picture>
           <img srcSet={props.image} alt="work" />
           <source srcSet={props.im_s} media="(max-width: 600px)" />
@@ -27,7 +27,7 @@ const Works = props => {
         img_m={work.img_m}
         img_s={work.img_s}
         title={work.title}
-        w_link={work.w_link}
+        link={work.link}
       />
     )
   })

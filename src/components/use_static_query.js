@@ -21,7 +21,7 @@ export const useSiteMetadata = () => {
               image
               img_m
               img_s
-              w_link
+              link
             }
           }
         }
