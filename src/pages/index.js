@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 //import ImageGallery from "../components/imageGallery"
 
-import "@ptkdev/webcomponent-instagram-widget"
+//import "@ptkdev/webcomponent-instagram-widget"
 
 const InstaWidget = () => {
   return (
