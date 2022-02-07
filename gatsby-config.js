@@ -159,13 +159,13 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
+    /* {
       resolve: `gatsby-source-instagram`,
       options: {
         // type: `user-profile`,
         username: `29225310943`,
       },
-    },
+    }, */
     {
       resolve: `gatsby-plugin-styletron`,
       options: {
