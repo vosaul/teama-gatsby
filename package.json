@@ -20,7 +20,7 @@
     "gatsby-plugin-manifest": "^2.4.5",
     "gatsby-plugin-offline": "^3.2.3",
     "gatsby-plugin-react-helmet": "^3.3.10",
-    "gatsby-plugin-sharp": "^2.6.42",
+    "gatsby-plugin-sharp": "^4.25.1",
     "gatsby-plugin-styletron": "^5.4.0",
     "gatsby-remark-emojis": "^0.4.3",
     "gatsby-source-filesystem": "^2.3.23",
