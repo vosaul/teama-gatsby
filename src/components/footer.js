@@ -30,9 +30,7 @@ return (
               vosaul
             </a>
           </p>
-          <p>
-            <span>&#169;</span> TEAMA, 2020
-          </p>
+          <p>&copy; {new Date().getFullYear()}, TEAMA</p>
         </div>
 
         <div className="footer_col col2">
