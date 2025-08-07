@@ -10,7 +10,7 @@
     "@ptkdev/webcomponent-instagram-widget": "^2.6.1",
     "acorn": "^6.4.1",
     "baseui": "^9.106.2",
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^5.0.0",
     "core-js": "^3.8.0",
     "fs": "0.0.1-security",
     "gatsby": "^5.14.0",
