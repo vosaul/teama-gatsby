@@ -29,7 +29,7 @@
     "gatsby-transformer-sharp": "^5.14.0",
     "highlight.js": "^11.11.1",
     "install": "^0.13.0",
-    "joi": "^18.2.0",
+    "joi": "^18.0.0",
     "jquery": "^3.5.1",
     "npm": "^11.5.2",
     "popper.js": "^1.16.1",
