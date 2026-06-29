@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "@babel/core": "^7.10.5",
+    "@babel/core": "^7.29.6",
     "@hapi/topo": "^3.1.6",
     "@ptkdev/webcomponent-instagram-widget": "^2.6.1",
     "acorn": "^6.4.1",
